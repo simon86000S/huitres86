@@ -5,9 +5,11 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./components/Home/Home";
 
 function App() {
+  const store = configureStore({ history });
   return (
     <div className="App">
-      <Router>
+      <Provider store={store}>
+      <Router history={history} basename={process.env.PUBLIC_URL}>>
         <Routes>
           <Route path="/" element={<Home></Home>}></Route>
 
@@ -19,6 +21,7 @@ function App() {
           </Route>
         </Routes>
       </Router>
+      </Provider> 
     </div>
   );
 }
