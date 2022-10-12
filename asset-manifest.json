@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/huitres86/static/css/main.a2e590e7.css",
-    "main.js": "/huitres86/static/js/main.4f47b76e.js",
+    "main.css": "/huitres86/static/css/main.c6ffa7e1.css",
+    "main.js": "/huitres86/static/js/main.d3b4c730.js",
     "static/js/787.959c16ed.chunk.js": "/huitres86/static/js/787.959c16ed.chunk.js",
     "static/media/huitreeats.jpeg": "/huitres86/static/media/huitreeats.5fa20705ab973562e0fc.jpeg",
     "static/media/photo7.jpeg": "/huitres86/static/media/photo7.45303e0b60d6576a096c.jpeg",
@@ -12,12 +12,12 @@
     "static/media/huitrecreusebaie.jpg": "/huitres86/static/media/huitrecreusebaie.c359d6568c81681d8b34.jpg",
     "static/media/abstrait.webp": "/huitres86/static/media/abstrait.32fd4e6f54685bdfa8fb.webp",
     "index.html": "/huitres86/index.html",
-    "main.a2e590e7.css.map": "/huitres86/static/css/main.a2e590e7.css.map",
-    "main.4f47b76e.js.map": "/huitres86/static/js/main.4f47b76e.js.map",
+    "main.c6ffa7e1.css.map": "/huitres86/static/css/main.c6ffa7e1.css.map",
+    "main.d3b4c730.js.map": "/huitres86/static/js/main.d3b4c730.js.map",
     "787.959c16ed.chunk.js.map": "/huitres86/static/js/787.959c16ed.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a2e590e7.css",
-    "static/js/main.4f47b76e.js"
+    "static/css/main.c6ffa7e1.css",
+    "static/js/main.d3b4c730.js"
   ]
 }
