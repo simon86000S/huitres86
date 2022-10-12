@@ -1,54 +1,76 @@
-import React from "react";
+import React,{useState} from "react";
 import "./Row.scss";
-import huitre from "../assets/img/huitrecreusebaie.jpg";
 
-function Row({ price1, price2, price3 }) {
-  const images = [
+function Row() {
+ const [number, setNumber] = useState([15,40,25,29,14])
+  const [img, setImg] = useState([
+   
     {
-      id: 1,
-      img:
-        "https://images.pexels.com/photos/10039860/pexels-photo-10039860.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-        
+      price:30,
+     
+      img1:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE6fG7QYmyTJpkyKUUdFZspD_PzaH0kgxipA&usqp=CAU",
     },
     {
-      id: 2,
-      img:
-        "https://www.ptitchef.com/imgupl/recipe/comment-faire-cuire-des-huitres--79450p110898.jpg",
+      price: 25,
+     
+      img2:
+        "https://petitfute.twic.pics/medias/professionnel/1944406/premium/originale/5fc147d77d9af-huitres-le-guen-chaumard-medaillees-d-or.png?twic=v1/cover=780x520",
     },
     {
-      id: 3,
-      img:
-        "https://images.pexels.com/photos/10039860/pexels-photo-10039860.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      price: 40,
+     
+      img3:
+        "https://www.huitrepaimpol.fr/wp-content/uploads/2018/04/HC50N3.jpg",
     },
     {
-      id: 4,
-      img:
-        "https://images.pexels.com/photos/10039860/pexels-photo-10039860.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      price: 35,
+       
+      img4:
+        "https://media-cdn.tripadvisor.com/media/photo-m/1280/13/48/07/bd/huitre-creuse-n-3.jpg",
     },
-  ];
+  ]);
+ const increment=()=>{
+
+ }
 
   return (
     <div className="oyesters">
-{images.map((img)=>{
-  return(
-    
       <div className="wrapper">
-        <div className="wrapper-list">
-          <img src={img.img}></img>
-         <p>huitres à commander</p> 
-          </div>
-          
-        </div>
-        
-     
-  )
-})}
+        {number.map((number)=>{
+          return(
+            <div>
+              
+              </div>
 
-         </div>
-      
-    
-   
+          )
+        })}
+        {img.map((img) => {
+          return (
+            <div>
+              <div className="wrapper-list">
+                <div className="stp">
+                  <img src={img.img1}></img>
+                  <p>Le prix est de {img.price} euros</p>
+                  <button onClick={increment} >+</button> <button >-</button>
+                </div>
+                <div>
+                  <img src={img.img2}></img>
+                  
+                </div>
+
+                <div>
+                  <img src={img.img3}></img>
+                </div>
+                
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </div>
   );
+
 }
 
 export default Row;
