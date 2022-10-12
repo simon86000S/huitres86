@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/huitres86/static/css/main.a2e590e7.css",
+    "main.js": "/huitres86/static/js/main.bde29637.js",
+    "static/js/787.959c16ed.chunk.js": "/huitres86/static/js/787.959c16ed.chunk.js",
+    "static/media/huitreeats.jpeg": "/huitres86/static/media/huitreeats.5fa20705ab973562e0fc.jpeg",
+    "static/media/photo7.jpeg": "/huitres86/static/media/photo7.45303e0b60d6576a096c.jpeg",
+    "static/media/huitre2.jpg": "/huitres86/static/media/huitre2.616cdb67f04af4fed85a.jpg",
+    "static/media/bourriche.jpg": "/huitres86/static/media/bourriche.dcc057983bb51332d858.jpg",
+    "static/media/photo6.jpeg": "/huitres86/static/media/photo6.18e531d5f91bfb28eb51.jpeg",
+    "static/media/photo5.jpg": "/huitres86/static/media/photo5.08cfc6d1f066547632e5.jpg",
+    "static/media/huitrecreusebaie.jpg": "/huitres86/static/media/huitrecreusebaie.c359d6568c81681d8b34.jpg",
+    "static/media/abstrait.webp": "/huitres86/static/media/abstrait.32fd4e6f54685bdfa8fb.webp",
+    "index.html": "/huitres86/index.html",
+    "main.a2e590e7.css.map": "/huitres86/static/css/main.a2e590e7.css.map",
+    "main.bde29637.js.map": "/huitres86/static/js/main.bde29637.js.map",
+    "787.959c16ed.chunk.js.map": "/huitres86/static/js/787.959c16ed.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a2e590e7.css",
+    "static/js/main.bde29637.js"
+  ]
+}
