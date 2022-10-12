@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <Provider store={store}>
-      <Router history={history} basename={process.env.PUBLIC_URL}>>
+      <Router history={history} basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path="/" element={<Home></Home>}></Route>
 
