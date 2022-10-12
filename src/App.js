@@ -3,13 +3,14 @@ import Huitres from "./components/Huitres/Huitres";
 import Delivery from "./components/Delivery/Delivery";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./components/Home/Home";
+import { Provider } from "react";
 
 function App() {
-  const store = configureStore({ history });
+
   return (
     <div className="App">
-      <Provider store={store}>
-      <Router history={history} basename={process.env.PUBLIC_URL}>
+      
+      <Router basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path="/" element={<Home></Home>}></Route>
 
@@ -21,7 +22,7 @@ function App() {
           </Route>
         </Routes>
       </Router>
-      </Provider> 
+      
     </div>
   );
 }
