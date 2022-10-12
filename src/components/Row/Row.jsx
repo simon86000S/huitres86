@@ -1,35 +1,53 @@
 import React from "react";
 import "./Row.scss";
 import huitre from "../assets/img/huitrecreusebaie.jpg";
-import { useState } from "react";
 
-function Row() {
-  const [price1, setPrince1] = useState(15);
-  const [price2, setPrice2] = useState(31);
-  const [price3, setPrice3] = useState(45);
+function Row({ price1, price2, price3 }) {
+  const images = [
+    {
+      id: 1,
+      img:
+        "https://images.pexels.com/photos/10039860/pexels-photo-10039860.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        
+    },
+    {
+      id: 2,
+      img:
+        "https://www.ptitchef.com/imgupl/recipe/comment-faire-cuire-des-huitres--79450p110898.jpg",
+    },
+    {
+      id: 3,
+      img:
+        "https://images.pexels.com/photos/10039860/pexels-photo-10039860.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    },
+    {
+      id: 4,
+      img:
+        "https://images.pexels.com/photos/10039860/pexels-photo-10039860.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    },
+  ];
+
   return (
     <div className="oyesters">
+{images.map((img)=>{
+  return(
+    
       <div className="wrapper">
         <div className="wrapper-list">
-          <img src={huitre}></img>
-          <h2>Huitres Fines n°2</h2>
-         <p>prix: {price1} euros</p> 
+          <img src={img.img}></img>
+         <p>huitres à commander</p> 
+          </div>
+          
         </div>
-        <span></span>
-        <div className="wrapper-list">
-          <img src={huitre}></img>
-          <h2>Huitres Fines n°2</h2>
-          <p>prix: {price2} euros</p>
-        </div>
-        <span></span>
-        <div className="wrapper-list">
-          <img src={huitre}></img>
-          <h2>Bourriche de 48</h2>
-          <p>prix: {price3} euros</p>
-        </div>
-       
-      </div>
-    </div>
+        
+     
+  )
+})}
+
+         </div>
+      
+    
+   
   );
 }
 

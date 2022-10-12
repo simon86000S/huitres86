@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState} from "react";
 import "./Article.scss";
 import huitre from "../assets/img/huitrecreusebaie.jpg";
 import huitre2 from "../assets/img/huitre2.jpg";
@@ -9,14 +9,15 @@ import photo4 from "../assets/img/photo6.jpeg";
 import mer from "../assets/img/photo7.jpeg";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import Row from "../Row/Row";
+import Oyester from "../List-oyester/Oyester";
 function Article() {
+
   return (
     <div className="Article">
       <div className="list-price">
         <div className="border">
           <h1>Meilleur vente</h1>
-        <Row/>
+        <Oyester />
         </div>
 
       </div>
