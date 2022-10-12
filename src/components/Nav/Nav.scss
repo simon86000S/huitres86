@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Dirt&family=Zen+Kaku+Gothic+New:wght@500&display=swap");
+
+.Nav {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  background-color: black;
+  font-family: "Rubik Dirt", cursive;
+  color: white;
+  justify-content: space-between;
+
+  .contact {
+    padding: 15px;
+    letter-spacing: 5px;
+    display: flex;
+   
+   
+    
+    .i-style {
+      color: grey;
+    }
+  }
+
+  .list-nav {
+    ul {
+      display: flex;
+      justify-content: flex-end;
+      padding: 15px;
+      align-items: center;
+
+      li {
+        color: white;
+        margin-right: 40px;
+        cursor: pointer;
+        list-style-type: none;
+        &:hover {
+          color: grey;
+          transition: all 600ms ease-in;
+        }
+      }
+    }
+  }
+}

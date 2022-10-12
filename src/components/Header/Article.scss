@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Rozha+One&display=swap");
+
+.Article {
+  display: flex;
+  justify-content: space-around;
+  height: 100vh;
+  font-family: "Rozha One", serif;
+
+  .list-price {
+    flex: 1;
+
+    padding-left: 35px;
+    .border {
+      height: 100%;
+      width: 50%;
+      background-color: rgb(216, 214, 207);
+      border-radius: 10px;
+    }
+  }
+  .carrousel {
+    flex: 2;
+
+    height: 100%;
+    width: 100%;
+    img {
+      margin-top: 25px;
+      border-radius: 15px;
+      height: 30rem;
+      width: 50rem;
+      padding-right: 50px;
+    }
+    .desc-article-oyester {
+      margin-top: 0;
+      p {
+        font-size: 15px;
+        line-height: 1.8;
+        font-weight: 200;
+        color: grey;
+        padding-left: 15px;
+      }
+      h1 {
+        text-align: center;
+        background-position: center;
+        background-repeat: no-repeat;
+       
+        background-image: url("https://cdn-icons-png.flaticon.com/512/197/197560.png");
+      }
+      .title-desc {
+        font-size: 25px;
+        color: rgb(218, 161, 38);
+      }
+    }
+  }
+}

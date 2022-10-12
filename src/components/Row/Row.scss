@@ -1,0 +1,39 @@
+.oyesters {
+    flex: 1;
+   height: 85vh;
+
+    .wrapper {
+      display: flex;
+      flex-direction: column;
+      margin: 10px;
+      
+     
+      
+      .wrapper-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        &::before{
+          content: "";
+          height:2px;
+          width: 100%;
+          background-color: rgb(98, 96, 96);
+          position:absolute;
+          bottom:-5px;
+        }
+      
+      }
+
+      img {
+        width: 100px;
+        cursor: pointer;
+        border-radius: 5px;
+        margin: 15px;
+        position: relative;
+       
+      }
+    }
+    
+  }
