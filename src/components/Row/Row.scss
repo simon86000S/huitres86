@@ -1,20 +1,21 @@
-.oyesters {
+.oyesters-Row {
     flex: 1;
    height: 85vh;
-
-    .wrapper {
-      display: flex;
-      flex-direction: column;
+   
+    .wrapper-Row {
+      
+     
       margin: 10px;
       
      
       
-      .wrapper-list {
+      .wrapper-list-Row {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         position: relative;
+        background-image: url('https://t3.ftcdn.net/jpg/03/64/39/20/360_F_364392037_q4DhrBYsPDX8omBIBfygiJsDX8NbhZUN.jpg');
         &::before{
           content: "";
           height:2px;
@@ -23,15 +24,25 @@
           position:absolute;
           bottom:-5px;
         }
-      
+      .img-Row{
+        width: 800px;
+        p{
+          text-align: center;
+          font-size: 25px;
+        }
+      }
       }
 
       img {
-        width: 100px;
+        width: 150px;
         cursor: pointer;
         border-radius: 5px;
         margin: 15px;
         position: relative;
+        &:hover{
+          transform: scale(1.2);
+          transition: transform 500ms ease-out;
+        }
        
       }
     }

@@ -14,6 +14,9 @@ function Home() {
       <Article></Article>
 <Aside/>
 <List/>
+<Footer/>
+
+
      
     </div>
   );

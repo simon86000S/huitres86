@@ -1,13 +1,17 @@
 .Select {
-  position: relative;
+ 
+  height: 100vh;
+  
+  
  
   h1 {
     text-align: center;
+    text-transform: uppercase;
     
   }
   .container {
     display: grid;
-    padding: 15px;
+    padding: 50px;
     grid-template-columns: 2fr 2fr 3fr;
     grid-template-rows: 2fr 2fr 2fr;
     gap: 8px 15px;
@@ -15,5 +19,13 @@
       ". . ."
       ". . ."
       ". . .";
+      display: flex;
+      justify-content: center;
+     
+  }
+  img{
+   
+    width: 100px;
+    border-radius: 50%;
   }
 }

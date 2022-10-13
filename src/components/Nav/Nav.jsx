@@ -5,6 +5,11 @@ import {Link } from 'react-router-dom';
 import WorkSharpIcon from '@mui/icons-material/WorkSharp';function Nav() {
   return (
     <div className="Nav">
+      <div className="menuBurger">
+<span></span>
+<span></span>
+<span></span>
+      </div>
       <div className="contact">
         <p>
           <span className="i-style">Appelez-nous au</span> 09 56 14 57 58
