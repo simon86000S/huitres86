@@ -16,7 +16,7 @@ function Article() {
     <div className="Article">
       <div className="list-price">
         <div className="border">
-          <h1>Meilleur vente</h1>
+          <h1>Meilleur ventes</h1>
         <Oyester />
         </div>
 
